@@ -1,0 +1,155 @@
+p {
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+
+header {
+    height: 100px;
+   background: #cb6549;
+}
+
+/*nav*/
+header img {
+    height:16vh;
+    margin-top: 0vh;
+    margin-left:0%;
+    float:left;}
+
+header nav {
+    width: 50%;
+    height:15vh;
+    float:right;
+}
+/*lista*/
+header nav ul {
+    list-style-type:none;
+    margin: 6vh 0 0 0;
+    padding: 0;
+}
+
+/*lista items*/
+header nav ul li {
+    display:inline;
+    font-size:1.5em;
+    margin-left:10%;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+
+/*list items links*/
+header nav ul li a {
+    color: white;
+    text-decoration:none;
+}
+
+header nav ul li a:hover {
+    color: #80b7b0;
+}
+
+/*slider*/
+.slider {
+    width:95%;
+    margin:auto;
+    overflow:hidden;
+    padding:0px;
+}
+
+.slider ul {
+    display:flex;
+    padding:0;
+    width:400%;
+
+    animation: cambio 20s infinite alternate;
+}
+
+.slider li {
+    width:100%;
+    list-style:none;
+    text-decoration:none;
+}
+
+.slider li img {
+    height:60%;
+    width:100%;
+}
+
+@keyframes cambio {
+    0% {margin-left:0;}
+    20% {margin-left:0;}
+
+    25% {margin-left:-100%;}
+    45% {margin-left:-100%;}
+
+    50% {margin-left:-200%;}
+    70% {margin-left:-200%;}
+
+     75% {margin-left:-300%;}
+    100% {margin-left:-300%;}
+}
+
+.card {
+    font-size:20px;
+    max-width:350px;
+    border:2px;
+    display:inline-block;
+    margin:150 px ;
+}
+
+/*fomulario*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #cb6549;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+
+}
+
+
+input[type=submit] {
+    background-color:  #cb6549;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #80b7b0;
+    padding: 20px;
+    color:#cb6549;
+}
+
+/*footer*/
+footer {
+    height:10vh;
+    background:#cb6549;
+}
+
+footer img {
+    height:8vh;
+    margin-top: 1vh;
+    margin-left:2%;
+    float:left;}
+
+/*iconos_del_footer*/
+footer .icono {
+    color:white;
+    margin-top: 6vh;
+    margin-left:1vh;
+    margin-right:2vh;
+    float:right;
+}
+
+footer .icono a {
+color: white;
+}
+
+footer .icono a:hover {
+    color: #80b7b0;
+}
+
+

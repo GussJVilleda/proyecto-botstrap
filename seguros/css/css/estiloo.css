@@ -1,0 +1,22 @@
+.boxes {
+    color:blue;
+    text-align:center;
+    font-size: 25px;
+}
+
+.borde1 {
+    border-style:solid;
+    border-width:medium;
+    border-color:DARKKHAKI;
+    font-size: 12px;
+    padding-left:20px;
+}
+
+.borde2 {
+    border-style:solid;
+    border-width:medium;
+    border-color:DARKKHAKI;
+    font-size: 10px;
+    padding-left:20px;
+}
+

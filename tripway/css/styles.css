@@ -1,0 +1,86 @@
+/*----------header---------*/
+header {
+    height:20vh;
+    background:#653eb3;
+    margin:0 0 0 0;
+}
+
+header .social {
+    height:5vh;
+    background:#5031a4;
+}
+
+header .google {
+    color:GAINSBORO;
+    float:right;
+    margin:1vh 10vh 1vh 1vh;
+}
+
+header .google a  {
+color: #b2a4d7;
+}
+
+header .icono {
+    float:right;
+    margin:1vh 1vh 1vh 1vh;
+}
+
+header .icono a {
+    color: #b2a4d7;
+}
+
+header .datos {
+    float:left;
+    margin: 1vh 1vh 1vh 10vh;
+}
+
+header .datos a{
+    color: #b2a4d7;
+}
+
+header p {
+    float:left;
+     margin: 1vh 1vh 1vh 1vh;
+     font-family:'Helvetica','Verdana','Monaco',sans-serif;
+     color:#d3cbe8;
+}
+
+header img {
+    height:14vh;
+    margin-top: 0vh;
+    margin-left:3%;
+    float:left;
+
+}
+
+header nav {
+    width: 50%;
+    height:15vh;
+    float:right;
+}
+/*lista*/
+header nav ul {
+    list-style-type:none;
+    margin: 6vh 0 0 0;
+    padding: 0;
+}
+
+/*lista items*/
+header nav ul li {
+    display:inline;
+    font-size:1.2em;
+    margin-left:7%;
+
+
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+
+/*list items links*/
+header nav ul li a {
+    color: white;
+    text-decoration:none;
+}
+
+header nav ul li a:hover {
+    color: #b2a4d7;
+}

@@ -1,0 +1,21 @@
+.sprites {
+    height: 45px;
+    width:45px;
+    background: url("../img/sprites.gif");
+}
+
+.sprites:hover{
+    background-position: 0 44px;
+}
+
+.flechas {
+    height:45px;
+    width:45px;
+    background: url("../img/sprites.gif");
+    background-position:90px 0;
+}
+
+.flechas:hover{
+    background-position: 90px 312px;
+}
+}

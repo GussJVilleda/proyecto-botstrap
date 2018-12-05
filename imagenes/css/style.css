@@ -1,0 +1,11 @@
+p, h1 {
+    color:red;
+}
+body {
+  background-color: #C0C0C0;
+}
+.colortext {color:blue;
+}
+h2 {
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}

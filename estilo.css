@@ -1,0 +1,15 @@
+p {
+    color:red;
+}
+
+img {
+    float:right;
+}
+.estilo-imagen {
+
+    margin-left:15px
+}
+
+.clear {
+    clear:left;
+}
